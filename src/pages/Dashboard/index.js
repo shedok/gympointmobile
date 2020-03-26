@@ -9,7 +9,6 @@ export default function Dashboard() {
   return (
     <Backgound>
       <Container>
-        <SubmitButton onPress={() => {}}>Novo check-in</SubmitButton>
         <List
           data={data}
           keyExtractor={item => String(item)}

@@ -10,13 +10,6 @@ export default function Helper({ navigation }) {
   return (
     <Backgound>
       <Container>
-        <SubmitButton
-          onPress={() => {
-            navigation.navigate('Answer');
-          }}
-        >
-          Novo pedido de auxílio
-        </SubmitButton>
         <List
           data={data}
           keyExtractor={item => String(item)}
